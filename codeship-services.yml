@@ -1,2 +1,2 @@
 busybox:
-  image: ruby:latest
+  image: busybox
